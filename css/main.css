@@ -1,3 +1,9 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
  .logo_main {
      height: auto;
      max-width: 250px;
@@ -5,4 +11,56 @@
      margin-left: auto;
      margin-right: auto;
      width: 50%;
+ }
+ 
+ .navbar {
+     background-color: #795548;
+     /* Set your desired color here */
+     margin-top: 10px;
+     position: sticky;
+     top: 0;
+     z-index: 1;
+ }
+ 
+ .c {
+     margin-top: -25px;
+ }
+ 
+ .c-item {
+     height: 480px;
+ }
+ 
+ .dropdown-toggle::after {
+     display: none;
+ }
+ 
+ .navbar-nav {
+     justify-content: center;
+ }
+ 
+ .welcome {
+     text-align: center;
+ }
+ 
+ p.c {
+     white-space: pre;
+ }
+ 
+ .container {
+     display: flex;
+ }
+ 
+ h3 {
+     font-family: "Heuristica", serif;
+     font-size: 1.625em;
+     line-height: 1.23em;
+     font-weight: 400;
+     margin-top: 0;
+     margin-bottom: 0.4em;
+ }
+ 
+ .item {
+     width: 216px;
+     height: 224px;
+     background-color: blueviolet;
  }
